@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.4.1):
+    - Alamofire (~> 4.7)
+  - CropViewController (2.3.8)
+  - Eureka (4.3.0)
+  - ImagePicker (3.1.0)
+  - ImagePickerCoordinator (1.0.1):
+    - CropViewController
+    - ImagePicker
+  - MultiImageRow (0.0.1):
+    - AlamofireImage (~> 3.3)
+    - Eureka (~> 4.1)
+    - ImagePickerCoordinator
+
+DEPENDENCIES:
+  - MultiImageRow (from `../../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - CropViewController
+    - Eureka
+    - ImagePicker
+    - ImagePickerCoordinator
+
+EXTERNAL SOURCES:
+  MultiImageRow:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
+  CropViewController: 7be882b7d3fb3faef48a41924e80f689e9df2514
+  Eureka: 6d711cb30ca333b4bc893110285a722ae3840114
+  ImagePicker: db1fd7626337b2577c523bef5f499bbbe5a37079
+  ImagePickerCoordinator: 51f9e1ec72186f89851e024a6625517c6348eb73
+  MultiImageRow: 055a9b4664cc2c7efa42f5c388e2e9bb1c26f546
+
+PODFILE CHECKSUM: 8b5d65257a71d4987f6bc7a8eb9a3dabe067a7e7
+
+COCOAPODS: 1.5.3

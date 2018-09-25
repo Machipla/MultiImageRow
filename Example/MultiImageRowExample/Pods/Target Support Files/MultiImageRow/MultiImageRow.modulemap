@@ -1,0 +1,6 @@
+framework module MultiImageRow {
+  umbrella header "MultiImageRow-umbrella.h"
+
+  export *
+  module * { export * }
+}
