@@ -29,11 +29,11 @@ row.cellType = .customNib(UINib(nibName: "MyAwesomeCell", bundle: nil))
 You can user new cells via Nib or Class, just like if you were loading a UICollectionViewCell!
 
 ### Multi image picker row
-Multi image picker row is similar to the previous row and has almost all his functionality, but it also lets the user take a picture from the album or camera using ![ImagePickerCoordinator](https://github.com/Machipla/ImagePickerCoordinator)
+Multi image picker row is similar to the previous row and has almost all his functionality, but it also lets the user take a picture from the album or camera using [ImagePickerCoordinator](https://github.com/Machipla/ImagePickerCoordinator)
 You can also set a placeholderImage for the row in order to show a placeholder for every slot in the row.
 
 ```
-let pickerRow = MultiImagePickerRow(fromController: .specific(self)) { row in
+let pickerRow = MultiImagePickerRow(fromController: .specific(myController)) { row in
     row.placeholderImage = UIImage(named: "my_placeholder")
     row.descriptionTitle = "My editable images"
     row.value = [.url(URL(string: "https://i.imgflip.com/1cl03l.jpg?a427056")!),.empty,.empty]
