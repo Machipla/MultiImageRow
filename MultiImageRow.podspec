@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = 'MultiImageRow'
   spec.homepage     = "https://github.com/Machipla/MultiImageRow"
-  spec.version      = '1.0.0'
+  spec.version      = '1.0.1'
   spec.platform     = :ios, "9.0"
   spec.authors      = 'Mario Chinchilla'
   spec.summary      = 'A multi image row for Eureka pod!'
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.source_files     = "Sources/**/*.swift"
   spec.resource_bundle  = { "MultiImageRow" => "Sources/*.bundle/**/*.xib" }
 
-  spec.dependency 'Eureka', '~> 4.1'
+  spec.dependency 'Eureka', '~> 4.2.0'
   spec.dependency 'AlamofireImage', '~> 3.3'
   spec.dependency 'ImagePickerCoordinator'
 end
