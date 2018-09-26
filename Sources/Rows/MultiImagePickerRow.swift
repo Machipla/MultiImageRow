@@ -52,7 +52,7 @@ public final class MultiImagePickerRow: Row<MultiImageTableCell>, RowType{
     
     public var slotCellType:MultiImageTableCell.SlotCellType{
         get{ return cell.slotCellType }
-        set{ cell.slotCellType = slotCellType }
+        set{ cell.slotCellType = newValue }
     }
     
     public required init(tag: String?) {

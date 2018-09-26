@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = 'MultiImageRow'
   spec.homepage     = "https://github.com/Machipla/MultiImageRow"
-  spec.version      = '1.0.1'
+  spec.version      = '1.0.2'
   spec.platform     = :ios, "9.0"
   spec.authors      = 'Mario Chinchilla'
   spec.summary      = 'A multi image row for Eureka pod!'
